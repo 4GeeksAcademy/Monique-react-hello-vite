@@ -2,14 +2,16 @@ import React from "react";
 
 function Footer(){
     return (
-    <div>
-        <div className="card mb-0">
-            <div className="card-body bg-dark bg-opacity-75 text-white text-center py-4" >
-                 Copyright @ Your Website 2018
+    
+        <div className="card">
+            <div className="card-body bg-dark bg-opacity-85 text-white text-center py-4" >
+                <p className="mb-0"> 
+                Copyright @copy Your Website 2018 
+                </p>
             </div>
         </div>
-    </div>
-    )
+   
+    );
 }
 
 export default Footer
